@@ -1,0 +1,1 @@
+SELECT No_of_Open_Tasks__c FROM Contact

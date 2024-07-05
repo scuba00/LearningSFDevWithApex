@@ -1,0 +1,10 @@
+//SELECT Id, Name, (SELECT FirstName, LastName FROM Contacts) FROM Account
+
+for(Account acc: [SELECT Id, Name, (SELECT FirstName, LastName FROM Contacts) FROM Account]) {
+
+    System.debug('For the account with name ' + acc.Name + '\nI have the following contacts:');
+    for(Contact con: acc.Contacts) { 
+        //acc.Contacts has type List<Contact>
+        System.debug(con.FirstName + ' ' + con.LastName);
+    }
+}

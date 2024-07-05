@@ -1,0 +1,5 @@
+String fields = 'FirstName, LastName';
+String queryString = 'SELECT ' + fields + ' FROM Contact';
+List<Contact> contacts = Database.query(queryString);
+
+System.debug(contacts);

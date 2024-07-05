@@ -1,0 +1,1 @@
+Set<Id> con = [SELECT Id FROM Contact]

@@ -1,0 +1,3 @@
+
+SELECT AnnualRevenue FROM Account WHERE AnnualRevenue > 100000000
+

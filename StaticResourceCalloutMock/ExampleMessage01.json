@@ -1,0 +1,9 @@
+[
+    {
+        "id": "1",
+        "body": "Test Message",
+        "posted": "2020-04-18",
+        "sender": "John Smith",
+        "location": "Bury, UK"
+    }
+]
